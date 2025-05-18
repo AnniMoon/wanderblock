@@ -6,17 +6,19 @@
 html, body{
     height: 100%;
 }
+/*Body style*/
 body {
     background-color: darkolivegreen;
     color: papayawhip;
     display: flex;
     flex-direction: column;
 }
-header{
-    background-color: #2d2b2b;
-}
 main{
     flex: 1;
+}
+/*nav style*/
+header{
+    background-color: #2d2b2b;
 }
 h1{
     display: flex;
@@ -24,6 +26,7 @@ h1{
     justify-content: center;
     align-items: center;
     position: relative;
+    font-weight: revert;
 }
 ul{
     display: flex;
@@ -45,6 +48,25 @@ li a {
 li:hover{
     transform: scale(1.2);
 }
+.selected{
+    font-weight: bold;
+}
+/*table style for hike overview*/
+table {
+    width: 100%;
+    border-collapse: separate; /* wichtig für border-spacing */
+    border-spacing: 0 25px;
+    font-family: sans-serif;
+}
+th {
+    text-align: center;
+    background-color: #333;
+    padding: 15px;
+}
+td{
+    text-align: center;
+}
+/*Footer style*/
 footer{
     display: flex;
     justify-content: center;
