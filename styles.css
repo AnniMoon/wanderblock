@@ -100,12 +100,31 @@ figcaption{
     margin-top: 20px;
 }
 /*Kontaktform*/
-#kontakt-form{
-    margin-top: 50px;
+#kontakt-form-container {
+    padding: 50px 0;
+}
+#kontakt-form {
+    width: 100%;
+    max-width: 240px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2d2b2b;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: red;
+    gap: 10px;
+    border-radius: 8px;
+}
+.button{
+    background-color: darkolivegreen;
+    color:papayawhip;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.button:hover{
+    background-color:papayawhip ;
+    color:darkolivegreen;
+}
+#beschreibung{
+    padding: 10px 10px 40px 5px;
 }
 label{
     width: 200px;
