@@ -44,6 +44,7 @@ h1{
     align-items: center;
     position: relative;
     font-weight: revert;
+    font-size: 40px;
 }
 ul{
     display: flex;
@@ -150,13 +151,20 @@ label{
 input {
     width: 200px;
 }
+/*impressum style*/
+#impressum{
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
 /*Footer style*/
 footer{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #2d2b2b;
-    color: white;
     padding: 1em;
     gap: 15px;
 }
