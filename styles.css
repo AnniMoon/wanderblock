@@ -1,3 +1,7 @@
+/*
+[] Elemente ansprechen
+media
+*/
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +20,6 @@ body {
 main{
     flex: 1;
 }
-
 /*nav style*/
 header{
     background-color: #2d2b2b;
@@ -71,18 +74,21 @@ li:hover{
 }
 /*table style für Wanderungen Übersicht*/
 table {
-    width: 100%;
-    border-collapse: separate; /* wichtig für border-spacing */
-    border-spacing: 0 25px;
+    width: 90%;
+    overflow-x: auto;
+    border-collapse: collapse;
     font-family: sans-serif;
+    margin: 30px 0 0 30px;
 }
 th {
-    text-align: center;
     background-color: #333;
     padding: 15px;
+    margin: 30px 0 0 30px;
 }
 td{
-    text-align: center;
+    background-color: #7e7871;
+    padding: 15px;
+    margin: 30px 0 0 30px;
 }
 #flex-wrapper {
     display: flex;
@@ -91,9 +97,10 @@ td{
 }
 #btn-container{
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-left: 10px;
+    gap: 15px;
+    bottom: 5rem;
+    position: fixed;
+    left: 30px;
 }
 /*style der Bildergalerie*/
 .galerie{
@@ -131,15 +138,6 @@ figcaption{
     gap: 10px;
     border-radius: 8px;
 }
-.button{
-    background-color: darkolivegreen;
-    color:papayawhip;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-.button:hover{
-    background-color:papayawhip ;
-    color:darkolivegreen;
-}
 #beschreibung{
     padding: 10px 10px 40px 5px;
 }
@@ -152,19 +150,23 @@ input {
     width: 200px;
 }
 /*impressum style*/
-#impressum{
-    margin-top: 200px;
+#impressum-container{
     justify-content: center;
     align-items: center;
     display: flex;
+}
+#impressum{
+    background-color: #2d2b2b;
+    border-radius: 10%;
+    padding: 20px;
+    margin: 120px auto;
     font-size: 20px;
 }
 /*Footer style*/
 footer{
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #2d2b2b;
-    padding: 1em;
     gap: 15px;
+    background-color: #2d2b2b;
+    padding: 1em 0.5em 0;
 }
