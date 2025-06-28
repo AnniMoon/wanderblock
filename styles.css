@@ -23,6 +23,7 @@ main{
 /*nav style*/
 header{
     background-color: #2d2b2b;
+    position: sticky;
 }
 #home-pic-container {
     display: flex;
@@ -101,6 +102,10 @@ td{
     bottom: 5rem;
     position: fixed;
     left: 30px;
+}
+/*Maps style für Wanderübersicht*/
+#maps-schneeberg{
+
 }
 /*style der Bildergalerie*/
 .galerie{
