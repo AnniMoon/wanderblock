@@ -104,8 +104,9 @@ td{
     left: 30px;
 }
 /*Maps style für Wanderübersicht*/
-#maps-schneeberg{
-
+td iframe{
+    height: 100px;
+    width: 100px;
 }
 /*style der Bildergalerie*/
 .galerie{
@@ -142,6 +143,19 @@ figcaption{
     flex-direction: column;
     gap: 10px;
     border-radius: 8px;
+}
+input[type="text"]{
+    background-color: red;
+    transition: ease-in-out;
+}
+input[type="email"]{
+    background-color: red;
+}
+input[type="text"]:hover{
+    background-color: blue;
+}
+input[type="email"]:hover{
+    background-color: blue;
 }
 #beschreibung{
     padding: 10px 10px 40px 5px;
