@@ -145,17 +145,20 @@ figcaption{
     border-radius: 8px;
 }
 input[type="text"]{
-    background-color: red;
-    transition: ease-in-out;
+    background-color: papayawhip;
+    transition: ease-in 1s;
+    color: #7e7871;
 }
 input[type="email"]{
-    background-color: red;
+    background-color: papayawhip;
+    color: #7e7871;
 }
 input[type="text"]:hover{
-    background-color: blue;
+    background-color: #7e7871;
+    color: papayawhip;
 }
 input[type="email"]:hover{
-    background-color: blue;
+    background-color: #7e7871;
 }
 #beschreibung{
     padding: 10px 10px 40px 5px;
