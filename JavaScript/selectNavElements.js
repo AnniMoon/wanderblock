@@ -1,7 +1,6 @@
 let navLinks = document.querySelectorAll("nav ul li a");
 
 function markElements(links) {
-    // beim Laden: aktuellen Link markieren
     let currentPath = window.location.pathname;
     // Beispiel: "/bildergalerie.html"
 
