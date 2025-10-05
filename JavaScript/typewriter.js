@@ -8,8 +8,7 @@ let text = header.textContent;
 header.textContent = "";
 
 // Funktion für den Schreibmaschinen-Effekt
-function typeWriter(header, text, delay = 100) {
-
+function typeWriter(header, text, delay) {
     let i = 0;
     function typing() {
         if (i < text.length) {

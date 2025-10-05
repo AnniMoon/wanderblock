@@ -54,6 +54,7 @@ ul{
     gap: 150px;
     padding: 20px;
 }
+
 li{
     list-style-type: none;
     transition: transform 0.2s ease;
@@ -66,8 +67,9 @@ li a {
 li:hover{
     transform: scale(1.2);
 }
-.selected{
+ul#navigation a.active {
     font-weight: bold;
+    color: red;
 }
 /*table style für Wanderungen Übersicht*/
 table {
